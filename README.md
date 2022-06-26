@@ -5,6 +5,6 @@ A simple command-line tool for encoding and decoding JWT tokens.
 - Encode: `npx jwt-cli encode --secret=SECRET TEXT`
 - Decode: `npx jwt-cli decode --secret=SECRET TOKEN`
 
-## Scripts (Can be used for piping)
-- Encode: `echo 'TEXT' | scripts/encode.sh --secret=SECRET`
-- Decode: `echo 'TOKEN' | scripts/decode.sh --secret=SECRET`
+## Scripts
+- encode.sh: `echo 'TEXT' | scripts/encode.sh --secret=SECRET`
+- decode.sh: `echo 'TOKEN' | scripts/decode.sh --secret=SECRET`
