@@ -8,3 +8,6 @@ A simple command-line tool for encoding and decoding JWT tokens.
 ## Scripts
 - encode.sh: `echo 'TEXT' | scripts/encode.sh --secret=SECRET`
 - decode.sh: `echo 'TOKEN' | scripts/decode.sh --secret=SECRET`
+
+## License
+This project is licensed under the [MIT license](LICENSE.md).
