@@ -7,4 +7,4 @@ A simple command-line tool for encoding and decoding JWT tokens.
 
 ## Scripts (Can be used for piping)
 - Encode: `echo 'TEXT' | scripts/encode.sh --secret=SECRET`
-- - Encode: `echo 'TOKEN' | scripts/decode.sh --secret=SECRET`
+- Decode: `echo 'TOKEN' | scripts/decode.sh --secret=SECRET`
